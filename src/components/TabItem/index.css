@@ -1,0 +1,23 @@
+button {
+  outline: none;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  color: #7b8794;
+  cursor: pointer;
+  font-family: 'Roboto';
+}
+
+.tab-item {
+  background-color: transparent;
+  border-bottom: 2px solid #dfe2e5;
+  padding: 10px;
+}
+
+.selected-tab {
+  border-bottom: 2px solid #2563eb;
+}
+
+.color {
+  color: #2563eb;
+}

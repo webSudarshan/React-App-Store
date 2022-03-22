@@ -1,0 +1,64 @@
+* {
+  font-family: 'Bree Serif';
+}
+
+.container {
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  padding-bottom: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: #1e293b;
+}
+
+.search-container {
+  border: 1px solid #7b8794;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  width: 50%;
+  padding: 0 10px;
+}
+
+input {
+  outline: none;
+  width: 95%;
+  border: 0;
+  background-color: transparent;
+  font-size: 16px;
+}
+
+.search-icon {
+  width: 5%;
+}
+
+.tab-items {
+  display: flex;
+  align-items: center;
+  padding-left: 0;
+  list-style-type: none;
+  background-color: transparent;
+}
+
+.app-items {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 576px) {
+  .search-container {
+    width: 70%;
+  }
+
+  .app-items {
+    width: 80%;
+  }
+}
